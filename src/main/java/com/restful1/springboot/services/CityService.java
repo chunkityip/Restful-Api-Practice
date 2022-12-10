@@ -16,6 +16,8 @@ public class CityService {
     public CityService() {
     }
 
+    //Endpoints
+
     //Getting all the cities name
     public List<City> getCities() {
         return cityRepository.findAll();
